@@ -1,0 +1,112 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 2.6em;
+}
+
+.request{
+    width: 70%;
+    margin: auto;
+}
+.request h4{
+    text-align: center;
+}
+
+.btn{
+    background-color:blue;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form input[type=email], .my-form input[type=message]{
+    padding: 8px;
+    width: 100%;
+}
+
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .left-slide {
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px #ccc solid;
+    border-width: 3px;
+  }
+  
+  .left-slide > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-slide h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: -300px;
+  }
+  
+  .right-slide {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    border: 5px #ccc solid;
+  }
+  
+  .right-slide > div {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 100%;
+   width: 100%;
+  }
+
+  .zuri-logo {
+    border: 0.4px solid #ddd;
+    margin-top: 5em;
+    padding-left: 0.2em;
+    padding-right: 0.4em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    width: fit-content;
+    background: #ddd;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#dot {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(218, 29, 29);
+
+}
+
+.copyright {
+    margin-top: 1.5em;
+    font-size: 10px;
+}
+  
